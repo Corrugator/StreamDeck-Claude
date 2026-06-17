@@ -78,20 +78,16 @@ The first time the plugin reads the token, macOS prompts with an **"Always Allow
 
 Install **"Usage Monitor for Claude Code"** from the Elgato Marketplace (once the listing is live). Updates arrive automatically.
 
-### Option B: install a packaged build
+### Option B: download a packaged build
+
+Grab the latest `com.corrugator.streamclaude.streamDeckPlugin` from the
+[**Releases**](https://github.com/Corrugator/StreamClaude/releases/latest) page
+and open it — Stream Deck installs it.
+
+### Option C: build from source
 
 ```bash
-git clone <this-repo>
-cd StreamClaude
-npm install
-npm run pack
-open com.corrugator.streamclaude.streamDeckPlugin   # Stream Deck installs it
-```
-
-### Option C: link for development
-
-```bash
-git clone <this-repo>
+git clone https://github.com/Corrugator/StreamClaude.git
 cd StreamClaude
 npm install
 npm run build
