@@ -81,14 +81,14 @@ Install **"StreamDeck-Claude"** from the Elgato Marketplace (once the listing is
 ### Option B: download a packaged build
 
 Grab the latest `com.corrugator.streamclaude.streamDeckPlugin` from the
-[**Releases**](https://github.com/Corrugator/StreamClaude/releases/latest) page
+[**Releases**](https://github.com/Corrugator/StreamDeck-Claude/releases/latest) page
 and open it — Stream Deck installs it.
 
 ### Option C: build from source
 
 ```bash
-git clone https://github.com/Corrugator/StreamClaude.git
-cd StreamClaude
+git clone https://github.com/Corrugator/StreamDeck-Claude.git
+cd StreamDeck-Claude
 npm install
 npm run build
 npx @elgato/cli link com.corrugator.streamclaude.sdPlugin
